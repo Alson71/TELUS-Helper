@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TELUS Helper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TELUS_Helper_jar</output-path>
+    <root id="archive" name="TELUS Helper.jar">
+      <element id="module-output" name="TELUS Helper" />
+    </root>
+  </artifact>
+</component>
