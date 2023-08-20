@@ -10,21 +10,20 @@ public class TELUSHelper extends JFrame implements ActionListener{
 
     public final double [] task = new double[22];
     static public double total;
+    
     public BigDecimal totalRound;
-
     static File file;
     static public int [] number = new int[22];
 
 
     JLabel label1 = new JLabel(),label2 = new JLabel();
-
     JLabel [] time = new JLabel[22];
     JLabel [] moreTime = new JLabel[10];
+    
     JTextField [] field = new JTextField[22];
 
     JButton [] button = new JButton[22];
     JButton[] negativeButton = new JButton[22];
-
     JButton clear;
 
     static public void createFile() {
@@ -114,7 +113,6 @@ public class TELUSHelper extends JFrame implements ActionListener{
 
             increment+=45;
         }
-
 
 
 
@@ -229,8 +227,6 @@ public class TELUSHelper extends JFrame implements ActionListener{
         for (JLabel jLabel : time) add(jLabel);
         for (JLabel jLabel : moreTime) add(jLabel);
 
-
-
         addWindowListener(new WindowAdapter(){
                 public void windowClosing(WindowEvent w){
                     try {
@@ -242,6 +238,7 @@ public class TELUSHelper extends JFrame implements ActionListener{
                     }
                 }
         });
+        
         setLocationRelativeTo(null);
         setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -267,11 +264,10 @@ public class TELUSHelper extends JFrame implements ActionListener{
 
     public static void saveData() throws IOException{
         PrintWriter writer = new PrintWriter(file);
-
-
-        for (int j : number) {
+        
+        for (int j : number) 
             writer.print(j + "#");
-        }
+        
         writer.print(total);
         writer.close();
 
