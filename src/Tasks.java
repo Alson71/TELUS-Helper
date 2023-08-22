@@ -10,14 +10,18 @@ public class Tasks extends JFrame implements ActionListener {
     public static double total;
     public BigDecimal totalRound;
     public static int[] number = new int[69];
+    
     JLabel label1 = new JLabel();
     JLabel label2 = new JLabel();
     JLabel titleLabel;
+    
     JTextField[] field = new JTextField[69];
+    
     JButton[] button = new JButton[69];
     JButton back;
     JButton[] negativeButton = new JButton[69];
     JButton clear;
+    
     JLabel[] time = new JLabel[69];
     JLabel[] moreTime = new JLabel[38];
 
@@ -346,8 +350,10 @@ public class Tasks extends JFrame implements ActionListener {
     }
 
     public Tasks() {
+        
         total = Main.total;
         totalRound(total);
+        
         setLayout(null);
         setTitle("Most Tasks");
         setSize(1002, 920);
