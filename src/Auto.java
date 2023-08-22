@@ -185,11 +185,11 @@ public class Auto extends JFrame implements ActionListener{
 
         if(e.getSource() == back){
             try{
-                Main.total = total;
-                Main.client[2] = false;
-                Main.saveData();
+                TELUSHelper.total = total;
+                TELUSHelper.client[2] = false;
+                TELUSHelper.saveData();
                 dispose();
-                new Main();
+                new TELUSHelper();
             }
             catch(IOException n){
                 n.printStackTrace();
@@ -199,7 +199,7 @@ public class Auto extends JFrame implements ActionListener{
 
     public Auto(){
 
-        total = Main.total;
+        total = TELUSHelper.total;
         totalRound(total);
 
         setLayout(null);
@@ -289,9 +289,9 @@ public class Auto extends JFrame implements ActionListener{
         addWindowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent w){
                 try {
-                    Main.total = total;
-                    Main.client[2] = true;
-                    Main.saveData();
+                    TELUSHelper.total = total;
+                    TELUSHelper.client[2] = true;
+                    TELUSHelper.saveData();
                 }
                 catch(Exception e){
                     System.out.println("Didn't load properly");

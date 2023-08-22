@@ -112,6 +112,8 @@ public class Tasks extends JFrame implements ActionListener {
         moreTime[7] = new JLabel("5s");
         moreTime[7].setFont(new Font("Times New Roman", Font.BOLD, 20));
         moreTime[7].setBounds(955, 350, 45, 30);
+
+        //Second row
         time[22] = new JLabel("2m");
         time[22].setFont(new Font("Times New Roman", Font.BOLD, 20));
         time[22].setBounds(10, 465, 45, 30);
@@ -235,6 +237,8 @@ public class Tasks extends JFrame implements ActionListener {
         moreTime[26] = new JLabel("45s");
         moreTime[26].setFont(new Font("Times New Roman", Font.BOLD, 20));
         moreTime[26].setBounds(955, 490, 45, 30);
+
+        //Third row
         time[44] = new JLabel("6m");
         time[44].setFont(new Font("Times New Roman", Font.BOLD, 20));
         time[44].setBounds(10, 630, 45, 30);
@@ -334,6 +338,8 @@ public class Tasks extends JFrame implements ActionListener {
         moreTime[37] = new JLabel("40s");
         moreTime[37].setFont(new Font("Times New Roman", Font.BOLD, 20));
         moreTime[37].setBounds(950, 630, 45, 30);
+
+        //Fourth row
         time[66] = new JLabel("17m");
         time[66].setFont(new Font("Times New Roman", Font.BOLD, 20));
         time[66].setBounds(3, 770, 45, 30);
@@ -346,8 +352,9 @@ public class Tasks extends JFrame implements ActionListener {
     }
 
     public Tasks() {
-        total = Main.total;
+        total = TELUSHelper.total;
         totalRound(total);
+
         setLayout(null);
         setTitle("Most Tasks");
         setSize(1002, 920);
@@ -453,8 +460,8 @@ public class Tasks extends JFrame implements ActionListener {
             button[i].setFont(new Font("Times New Roman", Font.BOLD, 20));
             button[i].setBounds(increment, 375, 45, 30);
             button[i].addActionListener(this);
-
             add(button[i]);
+
             negativeButton[i] = new JButton("-");
             negativeButton[i].setBounds(increment, 433, 45, 30);
             negativeButton[i].setFont(new Font("Times New Roman", Font.BOLD, 25));
@@ -566,9 +573,9 @@ public class Tasks extends JFrame implements ActionListener {
        addWindowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent w){
                 try {
-                    Main.total = total;
-                    Main.client[0] = true;
-                    Main.saveData();
+                    TELUSHelper.total = total;
+                    TELUSHelper.client[0] = true;
+                    TELUSHelper.saveData();
                 }
                 catch(Exception e){
                     System.out.println("Didn't load properly");
@@ -627,11 +634,11 @@ public class Tasks extends JFrame implements ActionListener {
 
         if(e.getSource() == back){
             try{
-                Main.total = total;
-                Main.client[0] = false;
-                Main.saveData();
+                TELUSHelper.total = total;
+                TELUSHelper.client[0] = false;
+                TELUSHelper.saveData();
                 dispose();
-                new Main();
+                new TELUSHelper();
             }
             catch(IOException n){
                 n.printStackTrace();

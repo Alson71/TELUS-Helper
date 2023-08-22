@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.math.*;
 
-public class Main extends JFrame implements ActionListener {
+public class TELUSHelper extends JFrame implements ActionListener {
     static double total;
     static File file;
     public URL url = getClass().getResource("telusIcon.jpg");
@@ -112,7 +112,7 @@ public class Main extends JFrame implements ActionListener {
         current.setText("Current Earnings: $" + totalRound);
     }
 
-    public Main(){
+    public TELUSHelper(){
 
         setLayout(null);
         setTitle("TELUS Helper Program");
@@ -213,7 +213,7 @@ public class Main extends JFrame implements ActionListener {
     public static void main(String[] args) throws IOException{
         createFile();
         loadData();
-        if(!client[0] && !client[1] && !client[2] && !client[3]) new Main();
+        if(!client[0] && !client[1] && !client[2] && !client[3]) new TELUSHelper();
         else if(client[0]) new Tasks();
         else if(client[1]) new Search();
         else if(client[2]) new Auto();

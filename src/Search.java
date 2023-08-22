@@ -184,11 +184,11 @@ public class Search extends JFrame implements ActionListener{
 
         if(e.getSource() == back){
             try{
-                Main.total = total;
-                Main.client[1] = false;
-                Main.saveData();
+                TELUSHelper.total = total;
+                TELUSHelper.client[1] = false;
+                TELUSHelper.saveData();
                 dispose();
-                new Main();
+                new TELUSHelper();
             }
             catch(IOException n){
                 n.printStackTrace();
@@ -198,7 +198,7 @@ public class Search extends JFrame implements ActionListener{
 
     public Search(){
 
-        total = Main.total;
+        total = TELUSHelper.total;
         totalRound(total);
 
         setLayout(null);
@@ -292,9 +292,9 @@ public class Search extends JFrame implements ActionListener{
         addWindowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent w){
                 try {
-                    Main.total = total;
-                    Main.client[1] = true;
-                    Main.saveData();
+                    TELUSHelper.total = total;
+                    TELUSHelper.client[1] = true;
+                    TELUSHelper.saveData();
                 }
                 catch(Exception e){
                     System.out.println("Didn't load properly");
