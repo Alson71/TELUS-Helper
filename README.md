@@ -5,7 +5,7 @@ A project to help out fellow Data Analysts working under TELUS International. Th
 This program is only useful to US Data Analysts on Windows at the moment, but there are plans for different locales and more OS support in the near future.
 
 # Download
-Patch 1.1 Download:https://drive.google.com/file/d/1pXZ3deNX3LogGkQAuPlQx_i6iw3DDYN0/view?usp=sharing
+Patch 1.1 Download:https://drive.google.com/file/d/1sZ4yf8SfTbQhzc7X3hPgx-J3XTq6ITpW/view?usp=sharing
 
 # Icon Source
 https://www.linkedin.com/company/telus-international/
