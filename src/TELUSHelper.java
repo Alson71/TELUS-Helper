@@ -71,7 +71,7 @@ public class TELUSHelper extends JFrame implements ActionListener {
         }
 
         else{
-            JOptionPane.showMessageDialog(null,"Update 1.1:\n- All tasks are included.\n- Different menus\n- Added colors" );
+            JOptionPane.showMessageDialog(null,"Update 1.1:\n- All tasks are included.\n- Different menus\n- Added colors","Patch Notes",JOptionPane.INFORMATION_MESSAGE);
             Arrays.fill(client, false);
         }
 
