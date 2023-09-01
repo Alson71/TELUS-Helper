@@ -6,7 +6,6 @@ import java.io.*;
 import java.math.*;
 public class Address extends JFrame implements ActionListener {
     public final double [] tasks = new double[2];
-
     public double total;
     public static int [] number = new int[2];
 
@@ -66,6 +65,14 @@ public class Address extends JFrame implements ActionListener {
 
                 totalRound(total);
 
+                try {
+                    TELUSHelper.total = total;
+                    TELUSHelper.saveData();
+                }
+                catch(IOException exception){
+                    System.out.println("This didn't work");
+                }
+
             }
 
         }
@@ -83,6 +90,14 @@ public class Address extends JFrame implements ActionListener {
 
             field[i].setText(String.valueOf(number[i]));
             totalRound(total);
+
+            try {
+                TELUSHelper.total = total;
+                TELUSHelper.saveData();
+            }
+            catch(IOException exception){
+                System.out.println("This didn't work");
+            }
 
         }
 
@@ -114,7 +129,6 @@ public class Address extends JFrame implements ActionListener {
         tasks[0] = 0.450;
         tasks[1] = 0.700;
 
-
         titleLabel = new JLabel("Address Verification");
         titleLabel.setBounds(315,0,300,40);
         titleLabel.setFont(new Font("Times New Roman",Font.BOLD,20));
@@ -123,7 +137,6 @@ public class Address extends JFrame implements ActionListener {
         label1 = new JLabel("Earnings:");
         label1.setBounds(345,70,300,40);
         label1.setFont(new Font("Times New Roman",Font.BOLD,30));
-
 
         label2.setBounds(345,120,350,60);
         label2.setFont(new Font("Times New Roman",Font.BOLD,40));

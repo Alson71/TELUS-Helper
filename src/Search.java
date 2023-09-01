@@ -162,6 +162,13 @@ public class Search extends JFrame implements ActionListener{
 
                 totalRound(total);
 
+                try {
+                    TELUSHelper.total = total;
+                    TELUSHelper.saveData();
+                }
+                catch(IOException exception){
+                    System.out.println("This didn't work");
+                }
             }
 
         }
@@ -179,6 +186,14 @@ public class Search extends JFrame implements ActionListener{
 
             field[i].setText(String.valueOf(number[i]));
             totalRound(total);
+
+            try {
+                TELUSHelper.total = total;
+                TELUSHelper.saveData();
+            }
+            catch(IOException exception){
+                System.out.println("This didn't work");
+            }
 
         }
 

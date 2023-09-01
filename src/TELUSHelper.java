@@ -203,6 +203,13 @@ public class TELUSHelper extends JFrame implements ActionListener {
 
                     total = 0;
                     totalRound(total);
+
+                    try {
+                        TELUSHelper.saveData();
+                    }
+                    catch(IOException exception){
+                        System.out.println("This didn't work");
+                    }
                 }
 
 
@@ -213,6 +220,7 @@ public class TELUSHelper extends JFrame implements ActionListener {
     public static void main(String[] args) throws IOException{
         createFile();
         loadData();
+
         if(!client[0] && !client[1] && !client[2] && !client[3]) new TELUSHelper();
         else if(client[0]) new Tasks();
         else if(client[1]) new Search();
