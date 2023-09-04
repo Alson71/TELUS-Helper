@@ -27,9 +27,8 @@ public class TELUSHelper extends JFrame implements ActionListener {
         boolean b = true;
         try{
             file = new File(System.getProperty("user.home") + File.separator +"/Desktop/telus.txt");
-            PrintWriter writer = new PrintWriter(file);
-            writer.print("");
-            writer.close();
+            FileReader fileReader = new FileReader(file);
+            fileReader.close();
         }
         catch(Exception e){
             b = false;
