@@ -27,9 +27,8 @@ public class TELUSHelper extends JFrame implements ActionListener {
         boolean b = true;
         try{
             file = new File(System.getProperty("user.home") + File.separator +"/Desktop/telus.txt");
-            PrintWriter writer = new PrintWriter(file);
-            writer.print("");
-            writer.close();
+            FileReader reader = new FileReader(file);
+            reader.close();
         }
         catch(Exception e){
             b = false;
@@ -185,12 +184,35 @@ public class TELUSHelper extends JFrame implements ActionListener {
     }
     public void actionPerformed(ActionEvent e){
 
-            if(e.getSource() != clear) dispose();
+            if(e.getSource() != clear) {
+                int i = 0;
 
-            if(e.getSource() == buttons[0]) new Tasks();
-           else if(e.getSource() == buttons[1]) new Search();
-           else if(e.getSource() == buttons[2]) new Auto();
-           else if(e.getSource() == buttons[3]) new Address();
+                if (e.getSource() == buttons[0]){
+                    new Tasks();
+                }
+                else if (e.getSource() == buttons[1]){
+                    new Search();
+                    i = 1;
+                }
+                else if (e.getSource() == buttons[2]){
+                    new Auto();
+                    i = 2;
+                }
+                else if (e.getSource() == buttons[3]){
+                    new Address();
+                    i = 3;
+                }
+
+                client[i] = true;
+                dispose();
+
+                try{
+                    saveData();
+                } catch(IOException l){
+                    System.out.print("This didn't work");
+                }
+            }
+
 
            else if(e.getSource() == clear && total != 0){
                 int pane = JOptionPane.showConfirmDialog(this,"Are you sure you want to clear all data?","Clear",JOptionPane.YES_NO_OPTION);
@@ -205,7 +227,7 @@ public class TELUSHelper extends JFrame implements ActionListener {
                     totalRound(total);
 
                     try {
-                        TELUSHelper.saveData();
+                        saveData();
                     }
                     catch(IOException exception){
                         System.out.println("This didn't work");
