@@ -1,0 +1,56 @@
+
+.autotitleLabel {
+    font-size: 20px;
+    transform: translateX(22%) translateY(-100%);
+    color:rgb(64, 186, 226);
+
+}
+
+
+.autotask-controls0 {
+    
+    display: flex;
+    transform:translateX(-22%) translateY(75%);
+
+}
+
+.autotask-controls1{
+    display: flex;
+    transform: translateX(20%) translateY(150%)
+
+}
+
+.lastRowLabel{
+  color:black;
+  position: absolute;
+  transform: translateX(1600%) translateY(-30%);
+}
+.autotimes0,.autotimes1{
+  display:flex;
+  position:absolute;
+}
+
+.autotimes0 div{
+  margin-right: 27.1px;
+}
+.autotimes1 div{
+  margin-right: 19.7px;
+}
+
+.autotimes0{
+  color:black;
+  transform: translateX(-15.7%) translateY(-5%);
+}
+
+.autotimes1{
+  color:black;
+  transform: translateX(38%) translateY(163%);
+}
+
+.autotask-controls0 div, .autotask-controls1 div{
+    margin-right: 15px;
+}
+
+#auto{
+  transform: translateY(10%);
+}
