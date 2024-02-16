@@ -1,0 +1,249 @@
+
+
+.backButton{
+  position:absolute;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  transform: translateX(-100%) translateY(-80%);
+  font-family: inherit;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: yellow;
+  text-decoration:none;
+}
+
+.clear{
+    border-radius: 12px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 15px;
+    font-weight: 500;
+    width:23%;
+    font-family: inherit;
+    color: black;
+    cursor: pointer;
+    transform: translateX(90%) translateY(-15%);
+    transition: border-color 0.25s;
+    background-color: lightsalmon;
+  }
+
+.app{
+    position:relative;
+    transform: translateX(25%) translateY(-30%);
+}
+
+#mostTasks{
+    transform: translateY(5%);
+}
+
+.labels{
+    position:relative;
+}
+
+.earningsValue {
+    color:black;
+    font-size: 30px;
+    transform: translateY(-50%) translateX(15%);
+
+}
+
+.titleLabel {
+    font-size: 20px;
+    transform: translateX(25%) translateY(-100%);
+    color:orange;
+
+}
+
+
+.task-controls0 {
+    display: flex;
+    transform:translateX(-15.5%) translateY(75%);
+
+}
+
+.task-controls1{
+    
+    display: flex;
+    transform: translateX(-15.5%) translateY(150%)
+
+}
+
+.task-controls2{    
+    display: flex;
+    transform: translateX(-15.5%) translateY(225%);
+
+}
+
+.task-controls3{  
+    display:flex;
+    transform: translateX(-15.5%) translateY(300%);
+
+}
+
+.task-controls4{
+    display: flex;
+    transform: translateX(-15.5%) translateY(375%);
+
+}
+
+.task-controls5{
+    display: flex;
+    transform: translateX(15.5%) translateY(450%);
+
+}
+
+.times0,.times1,.times2,.times3,.times4,.times5,.times6{
+    display:flex;
+    position:absolute;
+}
+.times0 div,.times1 div,.times2 div,.times3 div,.times4 div{
+   margin-right:27.1px;
+}
+
+.times5 div,.times6 div{
+    margin-right:19.5px; 
+}
+
+
+.times0{
+    color:black;
+    transform: translateX(-14.5%) translateY(30%);
+}
+.times1{
+    color:black;
+    transform: translateX(-14.5%) translateY(165%);
+}
+.times2{
+    color:black;
+    transform: translateX(-14.5%) translateY(335%);
+}
+.times3{
+    color:black;
+    transform: translateX(-14.5%) translateY(503%);
+}
+.times4{
+    color:black;
+    transform: translateX(-47.5%) translateY(673%);
+}
+
+.times5{
+    color:black;
+    transform: translateX(22.2%) translateY(673%);
+}
+
+.times6{
+    color:black;
+    transform:translate(42.2%) translateY(841%);
+}
+
+
+.task-controls0 div, .task-controls1 div, .task-controls2 div, .task-controls3 div,.task-controls4 div, .task-controls5 div{
+    margin-right: 15px;
+}
+
+
+
+.task-input {
+    width: 30px;
+    text-align: center;
+    font-size: 16px;
+    height: 22px;
+    
+}
+
+
+.plus{
+  
+  border-radius:3px;
+  border: 1px solid transparent;
+  font-size: 20px;
+  font-weight: 500;
+  height:30px;
+  width:37px;
+  font-family: inherit;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: lightblue;
+  text-align:center;
+  transform: translateX(0%) translateY(-5%)
+  
+  
+}
+
+.minus{
+  
+  border-radius:3px;
+  border: 1px solid transparent;
+  font-size: 20px;
+  font-weight: 500;
+  height:30px;
+  width:37px;
+  font-family: inherit;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: lightblue;
+  text-align:center;
+  transform:translateY(5%);
+  
+  
+}
+
+#mostTasksTimer{
+    transform: translateY(-2590%) translateX(-7%);
+}
+
+#mostTasksStart{
+  position:absolute;
+  text-decoration: none;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 14px;
+  font-weight: 500;
+  width: 70px;
+  font-family: inherit;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-right: 30px;
+  background-color: lightblue;
+  height:auto; 
+  transform: translateY(50%) translateX(-70%);
+}
+
+#mostTasksReset{
+  position:absolute;
+  text-decoration: none;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 14px;
+  font-weight: 500;
+  width: 70px;
+  font-family: inherit;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-right: 30px;
+  background-color: lightblue;
+  height:auto; 
+  transform: translateY(50%) translateX(50%);
+}
+
+.timeLabel{
+    color:black;
+    transform: translateY(50%);
+    width: 150px;
+}
+
+.timerLabel{
+    position:absolute;
+    transform: translateY(-150%) translateX(-5%);
+    color:darkgreen;
+}
