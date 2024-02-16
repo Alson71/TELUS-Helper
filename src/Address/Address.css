@@ -1,0 +1,86 @@
+  .addresstimes0{
+    color:black;
+    display:flex;
+    position:absolute;
+    transform: translateX(167.7%) translateY(-5%);
+  }
+  .addresstimes0 div{
+    margin-right: 27.1px;
+  }
+
+  .addresslabels{
+    position:relative;
+    transform: translateX(49%) translateY(-40%);
+  }
+
+  .addressearningsvalue{
+    color:black;
+    font-size: 30px;
+    width: 305px;
+    transform: translateY(-50%) translateX(18%);
+  }
+
+  .addressclear{
+    
+    border-radius: 12px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 15px;
+    font-weight: 500;
+    width:53%;
+    font-family: inherit;
+    color: black;
+    cursor: pointer;
+    transform: translateX(53%) translateY(-15%);
+    transition: border-color 0.25s;
+    background-color: lightsalmon;
+  }
+.addresstitleLabel {
+    
+    font-size: 20px;
+    transform: translateX(24%) translateY(-100%);
+    color:rgb(64, 226, 88);
+
+}
+
+
+.addresstask-controls0 {
+    display: flex;
+    transform:translateX(55.7%) translateY(75%);
+
+}
+
+
+.addresstask-controls0 div{
+    margin-right: 15px;
+}
+
+.addresstaskandtime{
+  color:black;
+  transform:translateX(33%) translateY(-20%);
+}
+
+#back{
+  position:absolute;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  transform: translateX(-145%) translateY(-80%);
+  font-family: inherit;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: yellow;
+  text-decoration:none;
+}
+
+#address{
+  transform: translateY(10%);
+}
+
+#addressTimer{
+  transform: translateY(-1055%) translateX(10%);
+}
+
