@@ -1,5 +1,5 @@
 # Purpose
-A project to help Data Analysts working under TELUS International compile their earnings per task type.   
+A project to help Data Analysts at TELUS International track their earnings per task type. A timer is also provided for accurate task timing.
 
 # Screenshots
 Start Screen
