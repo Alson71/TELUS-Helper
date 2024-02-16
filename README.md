@@ -1,5 +1,5 @@
 # Purpose
-A project to help out fellow Data Analysts working under TELUS International. This program counts the amount of earnings per question type and saves the question total unless user clears their data. 
+A project to help Data Analysts working under TELUS International compile their earnings per task type.   
 
 # Screenshots
 Start Screen
