@@ -1,5 +1,14 @@
 # Purpose
-A project to help Data Analysts at TELUS International track their earnings per task type. A timer is also provided for accurate task timing.
+An application that helps simplify the task rate tracking system for Data Analysts at TELUS International.  
+
+This application aims to resolve:
+* Waiting 24 hours to check task count on the Geoworkerz portal.
+* Better management of ERT (estimated rating time).
+
+# Key Features
+* Different menus for every task type
+* A timer to help maintain ERT.
+* Earnings amount is always saved (even when the application is closed) to a database file, but the user can always clear it.
 
 # Screenshots
 Start Screen
