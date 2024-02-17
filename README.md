@@ -12,19 +12,19 @@ This application aims to resolve:
 
 # Screenshots
 Start Screen
-![](https://i.ibb.co/dmqtFrb/Screenshot-2023-08-22-141050.png)
+![](https://i.ibb.co/r267yzF/Screenshot-2024-02-16-155645.png)
 
 Most Tasks Menu
-![](https://i.ibb.co/XbjbvRn/Screenshot-2023-08-22-135307.png)
+![](https://i.ibb.co/xCXQxzk/Screenshot-2024-02-16-155706.png)
 
 Search 2.0 Menu
-![](https://i.ibb.co/NnSpsFc/Screenshot-2023-08-22-135805.png)
+![](https://i.ibb.co/XSP1XKG/Screenshot-2024-02-16-155735.png)
 
 Autocomplete Menu
-![](https://i.ibb.co/xCXVbzn/Screenshot-2023-08-22-135724.png)
+![](https://i.ibb.co/nB85gFk/Screenshot-2024-02-16-155759.png)
 
 Address Verification Menu
-![](https://i.ibb.co/BZ9G5z5/Screenshot-2023-08-22-140036.png)
+![](https://i.ibb.co/RBQFYSG/Screenshot-2024-02-16-155815.png)
 
 # Disclaimer 
 This program is only useful to US Data Analysts on Windows at the moment, but there are plans for different locales and more OS support in the near future.
