@@ -15,7 +15,27 @@ Windows: https://www.dropbox.com/scl/fi/nhm7drbo4eifwdbww3wtr/TELUSHelper-1.0.0.
 
 Mac OS: https://www.dropbox.com/scl/fi/5yxw5y2p114irpnc5hi43/TELUSHelper-1.0.0.dmg?rlkey=irl6u1wicyi986omtrhwimckk&dl=0
 
-If you're having trouble on **Mac OS**, try:
+# Screenshots
+Start Screen
+![](https://i.ibb.co/r267yzF/Screenshot-2024-02-16-155645.png)
+
+Most Tasks Menu
+![](https://i.ibb.co/xCXQxzk/Screenshot-2024-02-16-155706.png)
+
+Search 2.0 Menu
+![](https://i.ibb.co/XSP1XKG/Screenshot-2024-02-16-155735.png)
+
+Autocomplete Menu
+![](https://i.ibb.co/nB85gFk/Screenshot-2024-02-16-155759.png)
+
+Address Verification Menu
+![](https://i.ibb.co/RBQFYSG/Screenshot-2024-02-16-155815.png)
+
+# Disclaimer 
+This program is only useful to US Data Analysts, but there are plans for different locales in the near future.
+
+# Mac Support
+If you're having trouble installing on **Mac OS**, try:
 
 * First Option: 
 
@@ -37,24 +57,6 @@ If you're having trouble on **Mac OS**, try:
   - Click Open.
 
 Additional Support: https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac
-# Screenshots
-Start Screen
-![](https://i.ibb.co/r267yzF/Screenshot-2024-02-16-155645.png)
-
-Most Tasks Menu
-![](https://i.ibb.co/xCXQxzk/Screenshot-2024-02-16-155706.png)
-
-Search 2.0 Menu
-![](https://i.ibb.co/XSP1XKG/Screenshot-2024-02-16-155735.png)
-
-Autocomplete Menu
-![](https://i.ibb.co/nB85gFk/Screenshot-2024-02-16-155759.png)
-
-Address Verification Menu
-![](https://i.ibb.co/RBQFYSG/Screenshot-2024-02-16-155815.png)
-
-# Disclaimer 
-This program is only useful to US Data Analysts on Windows at the moment, but there are plans for different locales and more OS support in the near future.
 
 # Icon Source
 https://www.linkedin.com/company/telus-international/
