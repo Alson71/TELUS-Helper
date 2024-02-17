@@ -52,7 +52,7 @@ To resolve message **"TELUSHelper" cannot be opened because the developer cannot
 
   - Control-click the app icon, then choose Open from the shortcut menu.
 
-  - Click Open.
+  - Click **Open**
 
 Additional Support:
 * https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac
