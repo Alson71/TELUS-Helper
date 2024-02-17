@@ -41,11 +41,9 @@ If Windows Defender is flagging the program as a false positive, try:
 # Mac Support
 To resolve message **"TELUSHelper" cannot be opened because the developer cannot be verified**, try:
 
-* First Option: 
+* In System Settings (or System Preferences), click **Security & Privacy**
 
-  - In System Settings (or System Preferences), click **Security & Privacy**
-
-  - Under "Allow apps downloaded from," select **Open anyway**
+* Under "Allow apps downloaded from," select **Open anyway**
 
 * Second Option (if you can't find it):
   - In the Finder on your Mac, locate the app you want to open (Don’t use Launchpad because it doesn't allow access to the shortcut menu).
