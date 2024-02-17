@@ -34,7 +34,7 @@ Address Verification Menu
 # Windows Support
 If Windows Defender is flagging the program as a false positive, try:
 
-* Right below where it says "Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk," click **More Info**
+* Right below where it says **Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk**, click **More Info**
   
 * Click **Run anyway**
 
