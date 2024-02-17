@@ -8,7 +8,7 @@ This application aims to resolve:
 # Key Features
 * Different menus for every task type
 * A timer to help maintain ERT.
-* Earnings amount is always saved (even when the application is closed) to a database file, but the user can always clear it.
+* Earnings amount is always saved to a database file, but the user can always clear it.
 # Downloads
 Windows: https://www.dropbox.com/scl/fi/nhm7drbo4eifwdbww3wtr/TELUSHelper-1.0.0.msi?rlkey=hy9hewu96z1udt2gf0ym655wk&dl=0
 
