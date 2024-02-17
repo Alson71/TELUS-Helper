@@ -48,11 +48,6 @@ To resolve message **"TELUSHelper" cannot be opened because the developer cannot
 To find the application:
   - In the Finder on your Mac, search **TELUSHelper**.
 
-Or:
-  - Control-click the app icon, then choose Open from the shortcut menu.
-
-  - Click **Open**
-
 Additional Support:
 * https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac
   
