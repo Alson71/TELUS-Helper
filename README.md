@@ -43,11 +43,11 @@ To resolve message **"TELUSHelper" cannot be opened because the developer cannot
 
 * First Option: 
 
-  - In System Settings (or System Preferences), click Security & Privacy.
+  - In System Settings (or System Preferences), click **Security & Privacy**
 
   - Under "Allow apps downloaded from," select **Open anyway**
 
-* Second Option:
+* Second Option (if you can't find it):
   - In the Finder on your Mac, locate the app you want to open (Don’t use Launchpad because it doesn't allow access to the shortcut menu).
 
   - Control-click the app icon, then choose Open from the shortcut menu.
