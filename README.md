@@ -34,7 +34,7 @@ If you're having trouble on Mac OS, try:
 
   - Control-click the app icon, then choose Open from the shortcut menu.
 
-Click Open.
+  - Click Open.
 # Screenshots
 Start Screen
 ![](https://i.ibb.co/r267yzF/Screenshot-2024-02-16-155645.png)
