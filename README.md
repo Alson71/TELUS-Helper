@@ -15,7 +15,7 @@ Windows: https://www.dropbox.com/scl/fi/nhm7drbo4eifwdbww3wtr/TELUSHelper-1.0.0.
 
 Mac OS: https://www.dropbox.com/scl/fi/5yxw5y2p114irpnc5hi43/TELUSHelper-1.0.0.dmg?rlkey=irl6u1wicyi986omtrhwimckk&dl=0
 
-**(Support for each download below)**
+**If you're having problems installing either client, support for each is below.**
 
 # Screenshots
 Start Screen
