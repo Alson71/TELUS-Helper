@@ -3,7 +3,7 @@ An application that helps simplify the task rate tracking system for Data Analys
 
 This application aims to resolve:
 * Waiting 24 hours to check task count on the Geoworkerz portal.
-* Better management of ERT (estimated rating time).
+* Management of ERT (estimated rating time) to avoid reviews.
 
 # Key Features
 * Different menus for every task type
