@@ -19,13 +19,13 @@ If you're having trouble on Mac OS, try:
 
 * First Option: 
 
-- In System Settings (or System Preferences), click Privacy & Security. Then scroll down to Security.
+  - In System Settings (or System Preferences), click Privacy & Security. Then scroll down to Security.
 
-- Under "Allow apps downloaded from," select an option: *
+  - Under "Allow apps downloaded from," select an option: *
 
-- App Store: Allow only apps that have been downloaded from the App Store
+  - App Store: Allow only apps that have been downloaded from the App Store
 
-- App Store and identified developers: Allow apps that have been downloaded from the App Store and from developers identified by Apple.
+  - App Store and identified developers: Allow apps that have been downloaded from the App Store and from developers identified by Apple.
 
 * Second Option:
 - In the Finder on your Mac, locate the app you want to open.
