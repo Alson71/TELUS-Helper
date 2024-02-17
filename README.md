@@ -14,6 +14,27 @@ This application aims to resolve:
 Windows: https://www.dropbox.com/scl/fi/nhm7drbo4eifwdbww3wtr/TELUSHelper-1.0.0.msi?rlkey=hy9hewu96z1udt2gf0ym655wk&dl=0
 
 Mac OS: https://www.dropbox.com/scl/fi/5yxw5y2p114irpnc5hi43/TELUSHelper-1.0.0.dmg?rlkey=irl6u1wicyi986omtrhwimckk&dl=0
+
+If you're having trouble on Mac OS, try:
+
+* First Option: 
+
+- In System Settings (or System Preferences), click Privacy & Security. Then scroll down to Security.
+
+- Under "Allow apps downloaded from," select an option: *
+
+- App Store: Allow only apps that have been downloaded from the App Store
+
+- App Store and identified developers: Allow apps that have been downloaded from the App Store and from developers identified by Apple.
+
+* Second Option:
+- In the Finder on your Mac, locate the app you want to open.
+
+- Don’t use Launchpad to do this. Launchpad doesn’t allow you to access the shortcut menu.
+
+- Control-click the app icon, then choose Open from the shortcut menu.
+
+Click Open.
 # Screenshots
 Start Screen
 ![](https://i.ibb.co/r267yzF/Screenshot-2024-02-16-155645.png)
