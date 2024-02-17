@@ -58,7 +58,10 @@ If you're having trouble installing, try:
 
   - Click Open.
 
-Additional Support: https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac
+Additional Support:
+
+* https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac
+* https://www.macworld.com/article/672947/how-to-open-a-mac-app-from-an-unidentified-developer.html
 # Disclaimer 
 This program is only useful to US Data Analysts, but there are plans for different locales in the near future.
 
