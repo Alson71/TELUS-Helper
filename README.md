@@ -9,7 +9,9 @@ This application aims to resolve:
 * Different menus for every task type
 * A timer to help maintain ERT.
 * Earnings amount is always saved (even when the application is closed) to a database file, but the user can always clear it.
-
+# Downloads
+Windows: https://www.dropbox.com/scl/fi/nhm7drbo4eifwdbww3wtr/TELUSHelper-1.0.0.msi?rlkey=hy9hewu96z1udt2gf0ym655wk&dl=0
+Mac OS: https://www.dropbox.com/scl/fi/5yxw5y2p114irpnc5hi43/TELUSHelper-1.0.0.dmg?rlkey=irl6u1wicyi986omtrhwimckk&dl=0
 # Screenshots
 Start Screen
 ![](https://i.ibb.co/r267yzF/Screenshot-2024-02-16-155645.png)
@@ -28,9 +30,6 @@ Address Verification Menu
 
 # Disclaimer 
 This program is only useful to US Data Analysts on Windows at the moment, but there are plans for different locales and more OS support in the near future.
-
-# Download
-Patch 1.1 Download: https://www.dropbox.com/scl/fi/dysmkz744h351v5dqb0ay/TELUSHelper-1.1.exe?rlkey=phmxrxu46ujqkbwkb7ynrdc6c&dl=0
 
 # Icon Source
 https://www.linkedin.com/company/telus-international/
