@@ -58,7 +58,7 @@ Additional Support:
   
 * https://www.macworld.com/article/672947/how-to-open-a-mac-app-from-an-unidentified-developer.html
 # Disclaimer 
-This program is only useful to US Data Analysts, but there are plans for different locales in the near future.
+This program is only useful to USA Data Analysts, but there are plans for different locales in the near future.
 
 # Icon Source
 https://www.linkedin.com/company/telus-international/
