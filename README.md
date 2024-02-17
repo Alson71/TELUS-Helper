@@ -36,7 +36,7 @@ If Windows Defender is flagging the program as a false positive, try:
 
 * Right below where it says "Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk," click **More Info**
   
-* Click the new button that has popped up, **Run anyway**
+* Click **Run anyway**
 
 # Mac Support
 If you're having trouble installing, try:
