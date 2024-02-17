@@ -35,6 +35,7 @@ If you're having trouble on Mac OS, try:
   - Control-click the app icon, then choose Open from the shortcut menu.
 
   - Click Open.
+
 Additional Support: https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac
 # Screenshots
 Start Screen
