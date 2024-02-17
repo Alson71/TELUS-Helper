@@ -6,6 +6,7 @@ This application aims to resolve:
 * Management of ERT (estimated rating time).
 
 # Key Features
+* Live task count
 * Different menus for every task type
 * A timer to help maintain ERT.
 * Earnings amount is always saved to a database, but the user can always clear it.
