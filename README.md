@@ -49,7 +49,7 @@ To resolve message **"TELUSHelper" cannot be opened because the developer cannot
   
 ----------------------------------------------------------------------------------------------------
 To find the application:
-  - In the Finder on your Mac, search **TELUSHelper**.
+  - In the Finder or Spotlight Search, search **TELUSHelper**.
     
 ----------------------------------------------------------------------------------------------------
 
