@@ -40,7 +40,7 @@ If Windows Defender is flagging the program as a false positive, try:
   
 * Click **Run anyway**
 
-# Mac Support
+# Mac OS Support
 To resolve message **"TELUSHelper" cannot be opened because the developer cannot be verified**, try:
 
 * In System Settings (or System Preferences), click **Security & Privacy**
