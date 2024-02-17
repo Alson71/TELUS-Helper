@@ -31,9 +31,6 @@ Autocomplete Menu
 Address Verification Menu
 ![](https://i.ibb.co/RBQFYSG/Screenshot-2024-02-16-155815.png)
 
-# Disclaimer 
-This program is only useful to US Data Analysts, but there are plans for different locales in the near future.
-
 # Mac Support
 If you're having trouble installing on **Mac OS**, try:
 
@@ -57,6 +54,8 @@ If you're having trouble installing on **Mac OS**, try:
   - Click Open.
 
 Additional Support: https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac
+# Disclaimer 
+This program is only useful to US Data Analysts, but there are plans for different locales in the near future.
 
 # Icon Source
 https://www.linkedin.com/company/telus-international/
