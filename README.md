@@ -45,9 +45,7 @@ If you're having trouble installing on **Mac OS**, try:
   - App Store and identified developers: Allow apps that have been downloaded from the App Store and from developers identified by Apple.
 
 * Second Option:
-  - In the Finder on your Mac, locate the app you want to open.
-
-  - Don’t use Launchpad to do this. Launchpad doesn’t allow you to access the shortcut menu.
+  - In the Finder on your Mac, locate the app you want to open (Don’t use Launchpad because it doesn't allow access to the shortcut menu).
 
   - Control-click the app icon, then choose Open from the shortcut menu.
 
