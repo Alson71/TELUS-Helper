@@ -44,7 +44,8 @@ To resolve message **"TELUSHelper" cannot be opened because the developer cannot
 * In System Settings (or System Preferences), click **Security & Privacy**
 
 * Under "Allow apps downloaded from," select **Open anyway**
-
+  
+----------------------------------------------------------------------------------------------------
 To find the application:
   - In the Finder on your Mac, search **TELUSHelper**.
     
