@@ -62,4 +62,4 @@ Additional Support:
 This program is only useful to USA Data Analysts.
 
 # Icon Source
-https://www.linkedin.com/company/telus-international/
+https://linkedin.com/company/telus-digital
