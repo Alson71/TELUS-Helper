@@ -1,5 +1,5 @@
 # Purpose
-An application that helps simplify the task rate tracking system for Data Analysts at TELUS International.  
+An application that helps simplify the task rate tracking system for Data Analysts at TELUS Digital.  
 
 This application aims to resolve:
 * Waiting 24 hours to check task count on the Geoworkerz portal.
