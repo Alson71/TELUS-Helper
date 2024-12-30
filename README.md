@@ -32,7 +32,7 @@ Autocomplete Menu
 ![](https://i.ibb.co/nB85gFk/Screenshot-2024-02-16-155759.png)
 
 Address Verification Menu
-![](https://i.ibb.co/RBQFYSG/Screenshot-2024-02-16-155815.png)
+![](https://i.ibb.co/dgpNMrV/Screenshot-2024-02-16-155815.png)
 
 # Windows Support
 If Windows Defender is flagging the program as a false positive, try:
