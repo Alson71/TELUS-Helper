@@ -23,10 +23,10 @@ Start Screen
 ![](https://i.ibb.co/r267yzF/Screenshot-2024-02-16-155645.png)
 
 Most Tasks Menu
-![](https://i.ibb.co/xCXQxzk/Screenshot-2024-02-16-155706.png)
+![](https://i.ibb.co/WYkV7nV/Screenshot-2024-02-16-155706.png)
 
 Search 2.0 Menu
-![](https://i.ibb.co/cFbQcG4/Screenshot-2024-02-16-155735.png)
+![](https://i.ibb.co/4RSPfQVL/Screenshot-2024-02-16-155735.png)
 
 Autocomplete Menu
 ![](https://i.ibb.co/nB85gFk/Screenshot-2024-02-16-155759.png)
