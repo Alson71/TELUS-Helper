@@ -26,7 +26,7 @@ Most Tasks Menu
 ![](https://i.ibb.co/WYkV7nV/Screenshot-2024-02-16-155706.png)
 
 Search 2.0 Menu
-![](https://i.ibb.co/4RSPfQVL/Screenshot-2024-02-16-155735.png)
+![](https://i.ibb.co/ycYB7JFn/Screenshot-2024-02-16-155735.png)
 
 Autocomplete Menu
 ![](https://i.ibb.co/nB85gFk/Screenshot-2024-02-16-155759.png)
