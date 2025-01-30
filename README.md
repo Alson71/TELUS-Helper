@@ -20,19 +20,19 @@ Mac OS: https://www.dropbox.com/scl/fi/5yxw5y2p114irpnc5hi43/TELUSHelper-1.0.0.d
 
 # Screenshots
 Start Screen
-![](https://i.ibb.co/r267yzF/Screenshot-2024-02-16-155645.png)
+![Image](https://github.com/user-attachments/assets/7cabd98d-6d0b-4c53-9e48-33b126d51869)
 
 Most Tasks Menu
-![](https://i.ibb.co/WYkV7nV/Screenshot-2024-02-16-155706.png)
+![Image](https://github.com/user-attachments/assets/05d77362-76dc-4b3e-8791-f0a5bf6c49f3)
 
 Search 2.0 Menu
-![](https://i.ibb.co/ycYB7JFn/Screenshot-2024-02-16-155735.png)
+![Image](https://github.com/user-attachments/assets/3a1bdae3-d521-463a-be61-2567f5862a9e)
 
 Autocomplete Menu
-![](https://i.ibb.co/nB85gFk/Screenshot-2024-02-16-155759.png)
+![Image](https://github.com/user-attachments/assets/abe130e7-f499-4386-971c-318628e48bcd)
 
 Address Verification Menu
-![](https://i.ibb.co/dgpNMrV/Screenshot-2024-02-16-155815.png)
+![Image](https://github.com/user-attachments/assets/349c7e2f-4166-4b64-bebc-22b3bfa1e83e)
 
 # Windows Support
 If Windows Defender is flagging the program as a false positive, try:
